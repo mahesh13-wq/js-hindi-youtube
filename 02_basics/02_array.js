@@ -13,6 +13,14 @@ const all_new_heros = [...marvel_heros, ...dc_heros]
 
 // console.log(all_new_heros);
 
+const allHeros2 = [...marvel_heros, 'hulk', ...dc_heros];
+console.log(allHeros2);
+
+const allHeros3 = ['hulk', ...marvel_heros, ...dc_heros];
+console.log(allHeros3);     
+
+
+
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
 const real_another_array = another_array.flat(Infinity)
